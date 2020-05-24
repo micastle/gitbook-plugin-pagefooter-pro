@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "name": "gitbook-plugin-pagefooter-pro",
+        "raw": "gitbook-plugin-pagefooter-pro@1.0.0",
+        "rawSpec": "1.0.0",
+        "scope": null,
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "C:\\Users\\micas\\Code\\books\\gitbook测试"
+    ]
+  ],
+  "_from": "gitbook-plugin-pagefooter-pro@1.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "gitbook-plugin-pagefooter-pro@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gitbook-plugin-pagefooter-pro",
+  "_nodeVersion": "8.15.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/gitbook-plugin-local-pagefooter_1.0.5_1551512795863_0.6629307646809193"
+  },
+  "_npmUser": {
+    "email": "772930508@qq.com",
+    "name": "webkong"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "gitbook-plugin-pagefooter-pro",
+    "raw": "gitbook-plugin-pagefooter-pro@1.0.0",
+    "rawSpec": "1.0.0",
+    "scope": null,
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/gitbook-plugin-local-pagefooter/-/gitbook-plugin-local-pagefooter-1.0.5.tgz",
+  "_shasum": "225233227819ea7a6c0abe4285b1e590924a75ec",
+  "_shrinkwrap": null,
+  "_spec": "gitbook-plugin-local-pagefooter@1.0.5",
+  "_where": "C:\\Users\\micas\\Code\\books\\gitbook测试",
+  "author": {
+    "email": "772930508@qq.com",
+    "name": "webkong"
+  },
+  "bugs": {
+    "url": "https://github.com/webkong/gitbook-plugin-local-pagefooter/issues"
+  },
+  "dependencies": {
+    "moment": "^2.10.6"
+  },
+  "description": "Customize the footer of each article, you can add copyright and document reversion of time",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 6,
+    "integrity": "sha512-CciAePmNDwNCHhlSl6jsXxhl+hilk78zP1tz0fZsjn3PQgncpC8uUyqW+oAdJQD6fPCpDa3sstKhwVywkKb8kQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcejTcCRA9TVsSAnZWagAAYIEP/1Zbdj77/9V/B94TXE1u\n7T62ToQreYX/rTkuSL4rSNsYctwtY+IfnPGxrbASRhrGnJwBUXVcQBDoYI+5\nyZ+d+JgnngXQak7vNrbL6Clk+lwsfACrFxNpYV1dJVFdRwcKaCiI0pY34n1B\nZe0daqxnLU5WgQkI64yJcWJLdnIulv+TaR7j4l00wUBPiWPDWKtpvvOTXeZD\nS0yp6Q11w096E9uEGd/c933O5OMVj0/ztrvOKIRBR9PhviCy4EHp/3lBmdeb\n8IkQWUPN2zAPAGiOdGv8BepTMY+g/pUAE2/5nZ4R0wuhVgRwCMWiEJHXaGit\nJ0+7QrMmD0DS3Qus1oPYDkfJ7YHffpjzRRjQuM0eDzwt+G0eG5SAM5dfaa2n\nAF7KAdWowJFJnxzvJ9At3YnbpsTcIoPOyIMDNZ6U9qFYQZO/ROePA3KVP+vB\ntkVOpnLT6YenhNGNMKmf6r1DGPrYdxxC4jYrkyH3YZG6x7el0ogp9NpQk0vw\nRs2ThuHLEiKnS7fXuKNiPhqIp7RbjJIWQd6TondEVY3WeIJOzFYNQ7KUaXdT\nP+5lbbP5Usy+V2mbY4oyJHG1RlE7xntLSNn6BkoPbIJ2Rj3VX3P5QYHdKV0p\nS3y/8Wy0yEn/yHdkCQpA1CduDEeC/FUnZrhLklG9Ep/HE9a+S0ecvWoZWJGh\n+1Ln\r\n=ODHY\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "225233227819ea7a6c0abe4285b1e590924a75ec",
+    "tarball": "https://registry.npmjs.org/gitbook-plugin-local-pagefooter/-/gitbook-plugin-local-pagefooter-1.0.5.tgz",
+    "unpackedSize": 14956
+  },
+  "engines": {
+    "gitbook": ">=3.2.2"
+  },
+  "gitHead": "6c52667db099d790aa18e4f162d71cb132d46cf9",
+  "homepage": "https://github.com/webkong/gitbook-plugin-local-pagefooter",
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "pagefooter-pro",
+    "modification"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "wangshiweilove@gmail.com",
+      "name": "webkong"
+    }
+  ],
+  "name": "gitbook-plugin-pagefooter-pro",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webkong/gitbook-plugin-local-pagefooter.git"
+  },
+  "version": "1.0.0"
+}
