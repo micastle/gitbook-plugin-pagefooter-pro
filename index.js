@@ -11,13 +11,19 @@ module.exports = {
       var _label = 'File Modify: ',
         _format = 'YYYY-MM-DD HH:mm:ss',
         _copy = '作者：' + this.options.author,
-        _islocal = true;
+        _islocal = true,
+        _showAuthor = true;
       if (this.options.pluginsConfig['pagefooter-pro']) {
         _label = this.options.pluginsConfig['pagefooter-pro']['modify_label'] || _label;
         _format = this.options.pluginsConfig['pagefooter-pro']['modify_format'] || _format;
+        _showAuthor = this.options.pluginsConfig['pagefooter-pro']['show_author'];
 
         var _c = this.options.pluginsConfig['pagefooter-pro']['copyright'];
-        _copy = _c ? '' + _c + ', ' + _copy : _copy;
+        if (_showAuthor) {
+          _copy = _c ? '' + _c + ', ' + _copy : _copy;
+        } else {
+          _copy = _c ? _c : '';
+        }
       }
       var _copy = '<span class="copyright">' + _copy + '</span>'
       var str = ' \n\n<footer class="page-footer">' + _copy +
